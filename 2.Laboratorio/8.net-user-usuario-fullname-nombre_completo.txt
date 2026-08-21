@@ -1,0 +1,7 @@
+El comando net user <usuario> /fullname:"<nombre_completo>" es una instrucción de administración que sirve para asignar o cambiar el nombre real (nombre completo) asociado a una cuenta de usuario en Windows, sin modificar el nombre de inicio de sesión (login).
+
+Campo que actualiza internamente en la ficha del usuario
+Al aplicarlo, modifica directamente un campo específico en la información del perfil:
+
+Campo modificado,               Cambio que ocurre
+Full Name (Nombre completo),    "Cambia de estar en blanco (o con un nombre previo) a mostrar la cadena de texto exacta que colocaste entre comillas (por ejemplo: ""Juan Pérez"")."

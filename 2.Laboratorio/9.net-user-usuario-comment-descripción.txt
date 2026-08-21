@@ -1,0 +1,6 @@
+El comando net user <usuario> /comment:"<descripción>" es una instrucción de administración que sirve para agregar o modificar una nota descriptiva en una cuenta de usuario (por ejemplo, definir el cargo, área o propósito de la cuenta).
+
+Campo que actualiza internamente en la ficha del usuarioAl aplicarlo, guarda el texto introducido en un campo específico del perfil:Campo modificadoCambio que ocurreUser's comment (Comentario de usuario)Muestra la descripción exacta que escribiste entre comillas (por ejemplo: "Cuenta temporal de auditoría").
+
+Campo modificado,                                Cambio que ocurre
+User's comment (Comentario de usuario),         "Muestra la descripción exacta que escribiste entre comillas (por ejemplo: ""Cuenta temporal de auditoría"")."

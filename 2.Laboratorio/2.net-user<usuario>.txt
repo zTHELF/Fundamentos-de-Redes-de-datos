@@ -1,0 +1,40 @@
+El comando net user <usuario> desglosa la ficha completa de una cuenta específica en Windows, organizando la información en los siguientes campos principales:
+
+Campos principales de net user <usuario>
+Nombre de usuario: El identificador o login de la cuenta.
+
+Nombre completo: El nombre real asignado al perfil del usuario.
+
+Comentario / Comentario de usuario: Descripción o notas asociadas a la cuenta.
+
+Código de país o región: Identificador de la configuración regional del perfil.
+
+Cuenta activa: Estado de la cuenta (Sí si está habilitada, No si está deshabilitada).
+
+La cuenta caduca: Fecha y hora en que la cuenta expira (o Nunca).
+
+Campos de Seguridad y Contraseña
+
+Campo	                                Descripción
+Contraseña última modificada	        Fecha y hora exactas del último cambio de clave.
+La contraseña caduca	                Fecha en que vence la contraseña actual.
+Contraseña cambiable	                Fecha a partir de la cual se permite volver a cambiar la clave.
+Se requiere contraseña	                Indica si es obligatorio que la cuenta tenga clave (Sí / No).
+El usuario puede cambiar la contraseña	Permiso que define si el usuario puede modificar su propia clave (Sí / No).
+
+Campos de Configuración y Acceso
+Estaciones de trabajo permitidas: Equipos específicos desde los cuales el usuario puede iniciar sesión.
+
+Script de inicio de sesión: Ruta del script que se ejecuta automáticamente al entrar al sistema.
+
+Perfil de usuario: Ruta a la carpeta del perfil de Windows.
+
+Directorio principal: Ruta asignada a la carpeta personal del usuario.
+
+Último inicio de sesión: Fecha y hora exactas de la última vez que la cuenta inició sesión.
+
+Horas permitidas de inicio de sesión: Franjas horarias configuradas para el acceso.
+
+Membresías de grupos locales: Grupos de seguridad locales a los que pertenece (ej. Administradores, Usuarios).
+
+Membresías de grupos globales: Grupos de dominio a los que está asignado el usuario (en entornos Active Directory).
