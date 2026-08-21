@@ -1,0 +1,4 @@
+El comando hostname es una herramienta directa y sencilla que no genera tablas ni múltiples filas de información.
+
+Campos que muestra el comando hostname
+Nombre del Host (Host Name): Muestra únicamente una sola línea de texto con el nombre de red asignado a tu equipo o sistema operativo (ejemplo: DESKTOP-8A2B3C4 o Servidor-Principal).

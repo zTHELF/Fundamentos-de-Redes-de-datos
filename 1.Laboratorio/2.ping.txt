@@ -1,0 +1,12 @@
+El comando ping envía paquetes ICMP a un destino para verificar si está alcanzable y medir la latencia. Cuando se ejecuta correctamente (especificando un destino como ping google.com), muestra dos secciones principales con los siguientes campos:
+
+1. Campos de respuesta por cada paquete (Líneas individuales)
+Por cada paquete enviado con éxito, verás:
+
+Respuesta desde [IP]: Muestra la dirección IP del equipo o servidor que devolvió la señal.
+
+Bytes: El tamaño del paquete de datos enviado (por defecto en Windows es 32 bytes).
+
+Tiempo (Latencia): El tiempo que tardó el paquete en ir al destino y regresar, medido en milisegundos (ms).
+
+TTL (Time to Live / Tiempo de vida): Límite de saltos que el paquete puede dar entre routers antes de descartarse. Ayuda a inferir el sistema operativo remoto o la ruta.

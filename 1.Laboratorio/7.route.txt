@@ -1,0 +1,14 @@
+El comando route gestiona y muestra la tabla de enrutamiento IP del sistema operativo, la cual determina por qué interfaz y hacia qué dirección se deben enviar los paquetes de datos para llegar a una red o equipo destino.
+
+Campos de la tabla de rutas IP (route print)
+Al ejecutar el comando habitual en Windows route print (o simplemente route print -4 para IPv4), la sección principal Rutas IPv4 muestra los siguientes campos:
+
+Destino de red (Network Destination): La dirección IP de la red o del host al que se quiere enviar el tráfico. La dirección 0.0.0.0 representa la ruta predeterminada (cualquier destino en Internet).
+
+Mascara de red (Netmask): La máscara de subred que define el rango de direcciones abarcado por la red destino (por ejemplo, 255.255.255.0 o 0.0.0.0 para la ruta por defecto).
+
+Puerta de enlace (Gateway): La dirección IP del router o equipo intermedio al que se le deben enviar los paquetes para que los reenvíe hacia el destino final. Si muestra En vínculo (On-link), significa que el destino está en la misma red local.
+
+Interfaz (Interface): La dirección IP local asignada a la tarjeta de red (Wi-Fi, Ethernet) por la que saldrán los paquetes hacia la puerta de enlace.
+
+Métrica (Metric): Un valor numérico que representa el "costo" o prioridad de la ruta. Si existen múltiples rutas hacia un mismo destino, el sistema operativo elegirá la ruta con la métrica más baja.

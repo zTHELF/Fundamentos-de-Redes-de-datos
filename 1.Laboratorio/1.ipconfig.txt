@@ -1,0 +1,17 @@
+El comando ipconfig en Windows muestra la información básica de red para todos los adaptadores configurados en tu equipo.
+
+Campos principales de ipconfig (Vista Estándar)
+Al ejecutar solo ipconfig, verás los siguientes datos clave para cada interfaz (Wi-Fi, Ethernet, adaptadores virtuales):
+
+Sufijo DNS específico para la conexión: El dominio local asignado a esa red (por ejemplo, home o localdomain).
+
+Dirección IPv6 link-local: Dirección de red local IPv6 asignada a la tarjeta (suele empezar por fe80::).
+
+Dirección IPv4: La dirección IP privada de tu dispositivo en la red local (por ejemplo, 192.168.1.15).
+
+Máscara de subred: Define el tamaño de la red local y qué parte corresponde al host (comúnmente 255.255.255.0).
+
+Puerta de enlace predeterminada: La IP de tu router o módem a través del cual sales a Internet (por ejemplo, 192.168.1.1).
+
+Campos adicionales de ipconfig /all (Vista Detallada)
+Si ejecutas el comando extendido ipconfig /all, se revelan parámetros avanzados de configuración y hardware:

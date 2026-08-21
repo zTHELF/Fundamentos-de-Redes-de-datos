@@ -1,0 +1,8 @@
+El comando getmac muestra las direcciones físicas (MAC) de todas las tarjetas de red instaladas o configuradas en tu equipo, junto con el protocolo de transporte asociado.
+
+Campos que muestra el comando getmac (Vista Estándar)
+Al ejecutar únicamente getmac en la consola, se despliega una tabla simple con los siguientes dos campos:
+
+Dirección física (Physical Address): La dirección MAC única de 48 bits asignada al hardware de cada adaptador de red (formato XX-XX-XX-XX-XX-XX).
+
+Nombre de transporte (Transport Name): El identificador del dispositivo en el sistema operativo y la cadena GUID de la interfaz de red asociada (ejemplo: \Device\Tcpip_{GUID}). Si la tarjeta está desconectada, mostrará Media disconnected (Medio desconectado).
