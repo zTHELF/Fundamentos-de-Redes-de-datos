@@ -1,0 +1,20 @@
+El comando net localgroup es una herramienta de la línea de comandos de Windows (CMD) que se utiliza para administrar y ver los grupos de usuarios locales en un equipo. Permite listar los grupos existentes, crear o eliminar grupos, y agregar o quitar usuarios de dichos grupos.
+
+¿Qué campos muestra el comando?
+La salida que muestra el comando varía según cómo se ejecute:
+
+1. Cuando se ejecuta solo (net localgroup)
+Muestra la lista de todos los grupos locales creados en la máquina.
+
+Nombre de alias (Alias name): Muestra los nombres de todos los grupos locales presentes en la máquina (por ejemplo, *Administradores, *Usuarios, *Invitados).
+
+Estado de ejecución: Una línea final que confirma la finalización del comando (ej. "Se ha completado el comando correctamente").
+
+2. Cuando se ejecuta para un grupo específico (net localgroup <nombre_del_grupo>)
+Muestra la información detallada de ese grupo en particular.
+
+Nombre del alias (Alias name): El nombre del grupo local consultado.
+
+Comentario (Comment): Una breve descripción de la función o permisos del grupo.
+
+Miembros (Members): La lista de las cuentas de usuario o cuentas del dominio que pertenecen a ese grupo.

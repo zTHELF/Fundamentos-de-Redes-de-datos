@@ -1,0 +1,17 @@
+El comando net localgroup <grupo> <usuario> /delete sirve para remover o quitar un usuario de un grupo local específico.
+
+Al ser una orden de modificación (acción), no genera una consulta de datos ni muestra un listado estructurado de campos.
+
+Campos que muestra el comando
+Al ejecutar net localgroup Administrators Junior /delete, la consola únicamente devuelve:
+
+Mensaje de confirmación: Muestra el resultado de la operación ("Se ha completado el comando correctamente" o "The command completed successfully").
+
+Línea de error (si falla): Notifica si hubo un problema, como "El usuario especificado no es miembro del grupo local" o "Acceso denegado" (si falta ejecutar el CMD como administrador).
+
+Ejemplos de uso
+Sintaxis estándar:
+net localgroup Administradores Pedro /delete
+
+Con nombres que llevan espacios:
+net localgroup "Remote Desktop Users" "Juan Perez" /delete

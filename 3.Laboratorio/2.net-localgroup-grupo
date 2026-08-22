@@ -1,0 +1,12 @@
+El comando net localgroup <grupo> sirve para consultar los detalles y la lista de integrantes de un grupo local específico en el equipo.
+
+Campos que muestra el comando
+Al ejecutar net localgroup <nombre_del_grupo> (por ejemplo, net localgroup Administradores), la consola devuelve exactamente estos campos:
+
+Nombre del alias (Alias name): Muestra el nombre exacto del grupo que estás consultando (ej. Administradores o Users).
+
+Comentario (Comment): Una descripción breve hecha por el sistema sobre las funciones o permisos de ese grupo.
+
+Miembros (Members): La lista detallada de todas las cuentas de usuario, cuentas de servicio o grupos de dominio que forman parte de ese grupo.
+
+Estado del comando: La confirmación final ("Se ha completado el comando correctamente").

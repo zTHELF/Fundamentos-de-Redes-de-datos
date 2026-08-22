@@ -1,0 +1,22 @@
+El comando net localgroup <grupo> /add sirve para crear un grupo local nuevo dentro del sistema operativo.
+
+A diferencia de los comandos de consulta, este es un comando de acción. Por lo tanto, no genera una tabla de datos ni muestra campos descriptivos de información.
+
+Campos que muestra el comando
+Al ejecutar net localgroup "NuevoGrupo" /add, la salida de la consola es sumamente simple y solo muestra dos elementos:
+
+Mensaje de confirmación: Un texto único que valida el éxito de la operación ("Se ha completado el comando correctamente" o "The command completed successfully").
+
+Línea de error (si falla): En caso de no tener permisos de administrador o si el grupo ya existe, mostrará el código de error correspondiente (ej. "Acceso denegado" o "El grupo local ya existe").
+
+¿Cómo se usa correctamente?
+Para ejecutarlo sin errores, debes abrir la consola (CMD) como Administrador:
+
+Crear un grupo simple:
+net localgroup MiNuevoGrupo /add
+
+Crear un grupo con espacios en el nombre:
+net localgroup "Soporte Tecnico" /add
+
+Crear un grupo agregándole una descripción:
+net localgroup MiNuevoGrupo /add /comment:"Grupo para el personal de soporte"

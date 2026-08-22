@@ -1,0 +1,22 @@
+El comando net localgroup <grupo> <usuario> /add sirve para añadir una cuenta de usuario existente a un grupo local determinado.
+
+Al ser un comando de modificación, tampoco genera una tabla con información o datos descriptivos del grupo o del usuario.
+
+Campos que muestra el comando
+Al ejecutar net localgroup Administradores Pedro /add, la salida de la consola únicamente muestra:
+
+Mensaje de confirmación: Muestra la línea de estado habitual ("Se ha completado el comando correctamente" o "The command completed successfully").
+
+Línea de error (si falla): Si ocurre algún problema, indicará el error específico (por ejemplo, "No se pudo encontrar el nombre de usuario", "El miembro ya existe en el grupo" o "Acceso denegado").
+
+Ejemplos de uso
+Debes ejecutar el Símbolo del sistema (CMD) como Administrador:
+
+Usuario sin espacios:
+net localgroup Administradores Juan /add
+
+Usuario o grupo con espacios (usar comillas):
+net localgroup "Remote Desktop Users" "Carlos Perez" /add
+
+Añadir un usuario de dominio a un grupo local:
+net localgroup Administradores DOMINIO\Usuario /add

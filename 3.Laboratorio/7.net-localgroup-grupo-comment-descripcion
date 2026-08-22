@@ -1,0 +1,17 @@
+El comando net localgroup <grupo> /comment:"<descripción>" sirve para añadir o modificar la descripción de un grupo local existente en el sistema operativo.
+
+Al ser un comando de modificación, no genera una tabla de datos ni muestra campos de información detallada sobre el grupo.
+
+Campos que muestra el comando
+Al ejecutar net localgroup Soporte /comment:"Grupo de soporte técnico", la consola únicamente devuelve:
+
+Mensaje de confirmación: El texto de estado habitual ("Se ha completado el comando correctamente" o "The command completed successfully").
+
+Línea de error (si falla): Notifica el problema si ocurre alguno, como "Acceso denegado" (si falta ejecutar CMD como Administrador) o "No se encontró el grupo local".
+
+¿Dónde se refleja este cambio?
+Una vez ejecutado, la descripción guardada se puede visualizar de dos formas:
+
+En la consola: Al consultar los detalles de ese grupo con el comando net localgroup <grupo>, el campo Comentario (Comment) mostrará la descripción que acabas de asignar.
+
+En la interfaz gráfica: En la ventana de Usuarios y grupos locales (lusrmgr.msc), aparecerá en la columna Descripción.

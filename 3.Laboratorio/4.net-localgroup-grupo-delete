@@ -1,0 +1,21 @@
+El comando net localgroup <grupo> /delete sirve para eliminar un grupo local existente del sistema operativo.
+
+Al igual que la variante /add, este es un comando de acción (modificación), por lo que no muestra una tabla de datos ni datos descriptivos del grupo.
+
+Campos que muestra el comando
+Al ejecutar net localgroup "NombreDelGrupo" /delete, la salida de la consola únicamente muestra:
+
+Mensaje de confirmación: El texto de estado que indica si la acción fue exitosa ("Se ha completado el comando correctamente" o "The command completed successfully").
+
+Línea de error (si falla): Muestra el mensaje correspondiente si ocurre un problema, como "Acceso denegado" (si no abriste CMD como Administrador) o "No se encontró el grupo local" (si el nombre está mal escrito o no existe).
+
+Detalles importantes sobre su uso
+No elimina las cuentas de usuario: Al borrar un grupo, los usuarios que pertenecían a él no se eliminan del sistema; simplemente pierden las políticas y permisos especiales que les otorgaba dicho grupo.
+
+Sintaxis:
+
+Para nombres sin espacios: net localgroup MiGrupo /delete
+
+Para nombres con espacios: net localgroup "Soporte Tecnico" /delete
+
+Privilegios: Es obligatorio ejecutar el Símbolo del sistema (CMD) con privilegios de Administrador para poder borrar grupos.
