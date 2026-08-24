@@ -1,0 +1,1 @@
+Aquí le apliqué una restricción de horario a Ysofty con el comando net user Ysofty /times:M-F,08:00-17:00. Después ejecuté net user Ysofty para verificar en la sección Logon hours allowed que el acceso quedó limitado únicamente de lunes a viernes, de 8:00 a. m. a 5:00 p. m.

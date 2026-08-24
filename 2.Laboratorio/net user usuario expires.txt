@@ -1,0 +1,1 @@
+En esta prueba le configuré una fecha de caducidad a la cuenta mediante net user Ysofty /expires:31/12/2026. Al revisar la información del usuario, comprobé que en Account expires se registró la fecha y hora exacta en que vencerá la cuenta.

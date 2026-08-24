@@ -1,0 +1,1 @@
+En esta imagen reactivé la cuenta usando net user Ysofty /active:yes. Luego tiré la consulta del perfil con net user Ysofty para validar que en el parámetro Account active ahora me aparece en Yes.

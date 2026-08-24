@@ -1,0 +1,1 @@
+Aquí le asigné el nombre real al usuario ejecutando net user Ysofty /fullname:"Junior Cedeño". En la verificación con net user Ysofty marqué la línea Full Name para mostrar que el nombre completo ya quedó registrado en la cuenta.

@@ -1,0 +1,1 @@
+En esta prueba le agregué una nota descriptiva al perfil de Ysofty ejecutando net user Ysofty /comment:"..." ParkingLot. Al consultar los detalles de la cuenta, corroboré que el texto guardado se refleja correctamente en el apartado Comment.

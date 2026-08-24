@@ -1,0 +1,1 @@
+Aquí borré la cuenta que acababa de crear usando net user JuniorC /delete. Tras recibir el mensaje de éxito del sistema, tiré de nuevo un net user para verificar en pantalla que JuniorC ya no figura en la lista de usuarios del equipo.

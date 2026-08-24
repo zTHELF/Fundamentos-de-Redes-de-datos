@@ -1,0 +1,1 @@
+En esta captura ejecuté el comando net user para listar las cuentas de usuario registradas en el equipo. El sistema me muestra primero el nombre del host (WIN-E4400JAJSLS) y debajo me despliega todas las cuentas locales disponibles, incluyendo la mía (THELF) y las creadas por defecto por Windows (DefaultAccount, Guest, WDAGUtilityAccount).

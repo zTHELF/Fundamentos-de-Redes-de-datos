@@ -1,0 +1,1 @@
+Aquí inhabilité temporalmente la cuenta con net user Ysofty /active:no. Al consultar el usuario con net user Ysofty, verifiqué que el parámetro Account active pasó a No, lo que bloquea el inicio de sesión sin borrar sus datos.

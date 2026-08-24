@@ -1,0 +1,1 @@
+Aquí cambié la clave de forma oculta ejecutando net user Ysofty *. El sistema me pidió ingresar la contraseña en Type a password for the user: y reconfirmarla en Retype the password to confirm:, todo sin mostrar los caracteres en pantalla por seguridad antes de devolver el estado de éxito.

@@ -1,0 +1,1 @@
+Aquí consulte la información detallada de la cuenta Guest ejecutando net user Guest. En el resultado marqué los datos clave del perfil: el nombre de usuario (User name), que la cuenta está activa (Account active: Yes), la fecha del último cambio de contraseña (Password last set), que la clave no caduca (Password expires: Never) y que pertenece al grupo local *Guests.

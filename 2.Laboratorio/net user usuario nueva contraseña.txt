@@ -1,0 +1,1 @@
+En esta captura le cambié la contraseña directamente al usuario Ysofty ejecutando net user Ysofty 123456789. El sistema procesó la orden e informó que el comando se completó con éxito, aplicando la nueva clave en texto plano.

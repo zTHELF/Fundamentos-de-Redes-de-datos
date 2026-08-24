@@ -1,0 +1,1 @@
+En esta pantalla creé un usuario nuevo con el comando net user JuniorC 12345 /add. El sistema me confirmó con The command completed successfully. y luego volví a ejecutar net user para comprobar que la nueva cuenta JuniorC ya aparece registrada en la lista del sistema.
