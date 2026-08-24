@@ -1,16 +1,1 @@
-El comando netstat (Network Statistics) muestra las conexiones de red activas, las tablas de enrutamiento y las estadísticas de las interfaces. Al ejecutar la sintaxis estándar en Windows (netstat), el comando devuelve una lista con los siguientes campos principales:
-
-Campos de la Vista Estándar (netstat)
-Proto (Protocolo): Muestra el protocolo de transporte que utiliza la conexión (comúnmente TCP o UDP).
-
-Dirección local: La IP de tu equipo junto con el puerto local asignado a la conexión (ejemplo: 192.168.1.15:52341).
-
-Dirección remota: La IP del servidor o equipo remoto con el que se estableció la comunicación y su puerto receptor (ejemplo: 142.250.190.46:443).
-
-Estado: Indica la condición actual del enlace (campo exclusivo de TCP). Los estados más comunes son:
-
-ESTABLISHED: La conexión está activa y transmitiendo datos.
-
-LISTENING: El puerto está abierto a la espera de conexiones entrantes.
-
-TIME_WAIT / CLOSE_WAIT: La conexión se está cerrando o finalizó recientemente.
+En el caso del reporte de mi netstat, la primera columna es el protocolo, que en este caso me marca TCP en todas las conexiones. En dirección local me muestra mi IP con el puerto que estoy usando, como 127.0.0.1:63373 o 192.168.100.101:50828. La columna de dirección remota me enseña hacia dónde estoy conectado, ya sea un equipo de mi red o una dirección https externa. En estado me indica si la conexión está ESTABLISHED o TIME_WAIT, y en la última columna me da el PID, que es el número de proceso con el que puedo buscar la aplicación exacta en el administrador de tareas.
