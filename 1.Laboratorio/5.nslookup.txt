@@ -1,18 +1,1 @@
-El comando nslookup (Name Server Lookup) se utiliza para consultar servidores DNS y obtener registros de mapeo entre nombres de dominio y direcciones IP.
-
-Campos principales de nslookup (Modo Directo)
-Al ejecutar una consulta básica como nslookup google.com, el comando devuelve los datos organizados en dos bloques de campos:
-
-1. Bloque de Datos del Servidor DNS (Quien responde):
-
-Servidor (Server): El nombre o dominio del servidor DNS local o predeterminado que está procesando la consulta (ejemplo: UnKnown o dns.google).
-
-Address: La dirección IP (IPv4 o IPv6) del servidor DNS que resolvió la petición (ejemplo: 192.168.1.1 u 8.8.8.8).
-
-2. Bloque de Datos del Dominio Consultado (Resultado):
-
-Respuesta no autoritativa (Non-authoritative answer): Mensaje que indica que la respuesta proviene de un servidor DNS en caché y no del servidor primario dueño del dominio.
-
-Nombre (Name): El nombre de dominio consultado o su nombre canónico/alias (ejemplo: google.com).
-
-Addresses / Address: Las direcciones IP públicas (IPv4 e IPv6) asociadas a ese dominio.
+Con respecto al resultado de mi nslookup, cuando consulté el dominio www.twitch.tv, la consola me mostró primero que el servidor DNS que procesó la búsqueda fue dns.google con su dirección IP 8.8.8.8. Luego me sale la respuesta no autoritativa indicando que esa información venía de la caché. En la parte de nombre me dio el servidor real que es h2.twitch.map.fastly.net con sus IPs correspondientes, y al final en aliases me confirma que la búsqueda original que yo hice fue el apodo www.twitch.tv.
