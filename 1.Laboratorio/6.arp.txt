@@ -1,16 +1,1 @@
-El comando arp (Address Resolution Protocol) muestra y gestiona la tabla de traducción entre direcciones IP (capa de red) y direcciones físicas MAC (capa de enlace de datos) que mantiene el sistema operativo.
-
-Campos que muestra el comando arp -a
-Al ejecutar el comando habitual arp -a para listar las entradas activas, la consola organiza los datos por interfaz de red y presenta los siguientes campos principales:
-
-Interfaz (Interface): Muestra la dirección IP local de la tarjeta de red a la que pertenece la tabla ARP mostrada (ejemplo: 192.168.1.15 --- 0x3).
-
-Dirección de Internet (Internet Address): La dirección IP (v4) del dispositivo remoto o equipo en la red local.
-
-Dirección física (Physical Address): La dirección MAC del dispositivo remoto, formada por 6 pares de dígitos hexadecimales separados por guiones (ejemplo: a4-12-42-b1-cd-ef).
-
-Tipo (Type): Indica cómo se agregó esa entrada a la tabla ARP:
-
-Dinámico (dynamic): Entradas aprendidas de forma automática mediante la comunicación reciente en la red (se borran tras un tiempo de inactividad).
-
-Estático (static): Entradas asignadas manualmente o direcciones reservadas del sistema (como las direcciones de broadcast o multicast, ej. 255.255.255.255).
+Si me fijo en mi tabla arp, en la parte superior me indica la interfaz desde donde estoy haciendo la consulta, que es mi IP 192.168.100.101. En la columna dirección de Internet están marcadas las IPs que mi PC detectó en la red local, y al lado en dirección física me muestra la dirección MAC de cada equipo, como la de mi router que es 0c-b9-37-4b-dd-25. En la columna de tipo, las IPs de los equipos reales me aparecen como dinámico, mientras que las direcciones de multicast y broadcast como las 224.x.x.x o 255.255.255.255 me salen marcadas como estático.
